@@ -20,7 +20,15 @@ Do not add dependencies or replace the stack unless asked.
 
 ## Skills and Docs
 
-Use relevant installed skills for framework-specific work.
+Project skills live in `.agents/skills/` and are tracked in `skills-lock.json`. Use `npx skills add <owner/repo@skill>` to install new ones and `npx skills check` to check for updates.
+
+Use relevant installed skills for framework-specific work:
+
+- `supabase` / `supabase-postgres-best-practices` — Supabase SDK, auth, RLS, and Postgres patterns
+- `shadcn` — shadcn/ui component library
+- `nextjs-app-router-patterns` — Next.js App Router, RSC, and Server Actions
+- `tailwind-v4-shadcn` / `tailwind-design-system` — Tailwind v4 and design system patterns
+- `nextjs-supabase-auth` — combined Next.js + Supabase auth flows
 
 For Next.js-specific uncertainty, prefer the installed docs in `node_modules/next/dist/docs/`.
 
